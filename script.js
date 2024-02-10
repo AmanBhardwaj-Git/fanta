@@ -72,3 +72,18 @@ tl2.to("#fanta",{
     left: "33%",
 }, 'ca')
 
+
+
+document.querySelector('nav #menu ')
+.addEventListener('click', ()=> {
+    document.querySelector('.cntr-nav  ').style.opacity ='1'
+    document.querySelector('nav #menu ').style.display ='none'
+    document.querySelector('nav #cross ').style.display ='block'
+})
+document.querySelector('nav #cross')
+.addEventListener('click', ()=> {
+    document.querySelector('.cntr-nav  ').style.opacity ='0'
+    
+    document.querySelector('nav #cross ').style.display ='none'
+    document.querySelector('nav #menu ').style.display ='block'
+})
